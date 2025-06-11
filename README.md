@@ -1,9 +1,12 @@
 # Home Assignment – Cypress & Allure
 
-This repository contains two tasks implemented using Cypress and Allure:
+This repository contains three tasks implemented using Cypress and Allure, each focused on different testing skills and scenarios:
 
-- **Task 2**: Basic Cypress test validating Amazon’s main menu and Customer Service flow.  
-- **Task 3**: Shopping-cart test suite with beforeEach/afterEach, free-shipping eligibility, and cleanup.
+**Task 1: Define five critical test titles for the Amazon site and write a full test case for one scenario (saved in Task1.spec.ts).**
+
+**Task 2: Validate Amazon’s main menu and Customer Service flow using Cypress and Allure.**
+
+**Task 3: Shopping-cart suite with beforeEach/afterEach hooks, free-shipping eligibility checks, and cart cleanup.**
 
 ---
 
@@ -17,3 +20,33 @@ This repository contains two tasks implemented using Cypress and Allure:
   npm install -g allure-commandline@^2.34.0
 
 
+
+
+**Allure Reporting**
+
+Results are collected automatically into allure-results/ when tests run.
+
+**Generate the report:**
+npx allure generate allure-results --clean -o allure-report
+
+**Open the report:**
+npx allure open allure-report
+
+
+
+
+
+
+**CI Integration**
+
+**A GitHub Actions workflow is configured in .github/workflows/cypress.yml. On every push or pull-request to main, it:**
+
+Checks out the code
+
+Installs Node/npm dependencies
+
+Runs Cypress headless
+
+Generates the Allure report
+
+Uploads allure-report/ as an artifact
