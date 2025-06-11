@@ -22,7 +22,7 @@ Brief Descriptions of Each Task:
 
 ---
 
-**Allure Reporting**
+##Allure Reporting
 
 Results are collected automatically into allure-results/ when tests run.
 
@@ -37,7 +37,7 @@ npx allure open allure-report
 ---
 
 
-**CI Integration**
+##CI Integration
 
 **A GitHub Actions workflow is configured in .github/workflows/cypress.yml. On every push or pull-request to main, it:**
 
