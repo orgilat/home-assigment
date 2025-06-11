@@ -1,8 +1,8 @@
 # Home Assignment – Cypress & Allure
 
-This repository contains three tasks implemented using Cypress and Allure, each focused on different testing skills and scenarios:
+Brief Descriptions of Each Task:
 
-**Task 1: Define five critical test titles for the Amazon site and write a full test case for one scenario (saved in Task1.spec.ts).**
+**Task 1: Define five critical test titles for the Amazon site and write a full test case for one scenario (saved in Task 1.pdf).**
 
 **Task 2: Validate Amazon’s main menu and Customer Service flow using Cypress and Allure.**
 
