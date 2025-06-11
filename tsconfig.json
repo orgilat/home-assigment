@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "lib": ["es6", "dom"],
+    "types": ["cypress", "mocha", "node"],
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "strict": true,
+    "paths": {
+      "@fixtures/*": ["fixtures/*"],
+      "@pages/*": ["pages/*"]
+    }
+  },
+  "include": [
+    "e2e/**/*.ts",
+    "fixtures/**/*.ts",
+    "pages/**/*.ts",
+    "**/*.ts"
+  ]
+}

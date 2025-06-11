@@ -1,0 +1,21 @@
+{
+  "name": "homeassigment",
+  "version": "1.0.0",
+"scripts": {
+  "test": "cypress run && npm run allure:report",
+  "allure:report": "allure generate allure-results --clean -o allure-report && allure open allure-report",
+  "task3": "cypress run --spec \"e2e/task3.spec.ts\" && npm run allure:report"
+}
+
+,
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.41.2",
+    "@types/cypress": "^0.1.6",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^22.15.30",
+    "allure-commandline": "^2.34.0",
+    "cypress": "^14.4.1",
+    "cypress-xpath": "^2.0.1",
+    "typescript": "^5.8.3"
+  }
+}
