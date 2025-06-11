@@ -20,7 +20,7 @@ Brief Descriptions of Each Task:
   npm install -g allure-commandline@^2.34.0
 
 
-
+---
 
 **Allure Reporting**
 
@@ -34,7 +34,7 @@ npx allure open allure-report
 
 
 
-
+---
 
 
 **CI Integration**
